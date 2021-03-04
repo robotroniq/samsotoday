@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 .App {
   text-align: center;
@@ -14,23 +15,25 @@
 }
 
 .App-header p {
-  font-family: 'ZCOOL KuaiLe', sans-serif;
-  font-size: 3rem;
+  font-family: 'ZCOOL KuaiLe', 'Gugi', sans-serif;
+  word-break:keep-all;
+  white-space: pre-line;
+  font-size: 2.5rem;
   color: black;
 }
 
 .App-header .p1 {
-  font-size: 2.5rem;
   font-weight: 400;
 }
 
 .App-header .p2 {
-  font-size: 3rem;
-  font-weight: 900;  
+  font-weight: 400;  
 }
 
 .App-logo {
-  height: 40vmin;
+  width: 80%;
+  max-width: 800px;
+  height: auto;
   pointer-events: none;
 }
 
